@@ -1,10 +1,17 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+h1, h2, h3, a, p {
+    
 }
 
 .container {
-
+    width: 1150px;
+    margin: 0 auto;
 }
 
 .header {
@@ -13,5 +20,41 @@ body {
     background-image: url(../recoures/headimage.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+}
+
+.head-wrapper {
+    padding-top: 27px;
+}
+
+.namelogo {
+    background-image: url(../recoures/black.png);
+    padding: 3px 12px 3px 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.head__nav {
+    float: right;
+}
+
+.head__nav a:hover {
+    color: #1BFF07;
+}
+
+.head__link {
+    margin-right: 50px;
+    font-size: 19px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.head__link:last-child {
+    margin-right: 17px;
+}
+
+.head__text {
+    position: absolute;
+    font: 20px;
+    font-weight: 400;
 }

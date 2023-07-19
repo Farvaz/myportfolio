@@ -79,8 +79,9 @@ header {
     color: #da7bff;
 }
 
-.projects .container{
+.project {
     position: relative;
+    margin-top: 40px;
 }
 
 .projects {
@@ -91,16 +92,45 @@ header {
     font-size: 55px;
 }
 
-.project__title {
-    position: absolute;
-    left: 50px;
-    bottom: 94px;
-    font-size: 35px;
-}
-
-.project__description {
+.project__link {
     position: absolute;
     left: 50px;
     bottom: 50px;
+
+}
+
+.project__item {
+    position: relative;
+}
+
+.project__title {
+    font-size: 35px;
+    color: white;
+}
+
+.project__description {
+    margin-top: 5px;
     font-size: 30px;
+    color: white;
+}
+
+.project__btn {
+    display: block;
+    margin-top: 80px;
+    width: 582px;
+    height: 153px;
+    font-size: 30px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #1BFF07;
+    background-color: #1BFF07;
+    color: #000;
+}
+
+.project__btn:hover {
+    background-color: #000;
+    color: #1BFF07;
 }

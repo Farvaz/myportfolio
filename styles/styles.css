@@ -18,12 +18,8 @@ h1, h2, h3, p, a {
     letter-spacing: normal;
 }
 
-header .container {
-    position: relative;
-    height: 765px;
-}
-
 header {
+    position: relative;
     height: 765px;
     background-image: url(../recoures/headimage.png);
     background-repeat: no-repeat;
@@ -62,16 +58,18 @@ header {
 }
 
 .head__text {
+    position: absolute;
     width: 430px;
-    margin-top: 252px;
+    bottom: 328px;
     font-size: 23px;
     font-weight: 400;
     color: white;
 }
 
 .head__text__sasha {
-    margin-top: 29px;
+    position: absolute;
     width: 919px;
+    bottom: 50px;
     font-size: 85px;
     font-weight: 400;
     color: #da7bff;
@@ -177,4 +175,34 @@ header {
 
 .services__item {
     margin-top: 74px;
+}
+
+.services__list {
+    position: relative;
+    margin-top: 74px;
+}
+
+.services__list:first-child {
+    margin-top: 0;
+}
+
+.services__list:last-child {
+    margin-top: 137px;
+}
+
+.services__title {
+    position: absolute;
+    left: 40px;
+    bottom: 170px;
+    font-size: 55px;
+    color: #1BFF07;
+}
+
+.services__description {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 749px;
+    font-size: 22px;
+    letter-spacing: 4.9px;
 }

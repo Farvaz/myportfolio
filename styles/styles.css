@@ -18,8 +18,12 @@ h1, h2, h3, p, a {
     letter-spacing: normal;
 }
 
-header {
+header .container {
     position: relative;
+    height: 765px;
+}
+
+header {
     height: 765px;
     background-image: url(../recoures/headimage.png);
     background-repeat: no-repeat;
@@ -58,34 +62,27 @@ header {
 }
 
 .head__text {
-    position: absolute;
     width: 430px;
-    height: 103px;
-    left: 194px;
-    bottom: 328px;
+    margin-top: 252px;
     font-size: 23px;
     font-weight: 400;
     color: white;
 }
 
-.head__text__im {
-    position: absolute;
-    left: 197px;
-    bottom: 94px;
+.head__text__sasha {
+    margin-top: 29px;
     width: 919px;
-    height: 205px;
     font-size: 85px;
     font-weight: 400;
     color: #da7bff;
 }
 
 .project {
-    position: relative;
     margin-top: 40px;
 }
 
 .projects {
-    margin: 150px 0;
+    margin: 150px 0 0 0;
     color: white;
 }
 .projects h2 {
@@ -133,4 +130,51 @@ header {
 .project__btn:hover {
     background-color: #000;
     color: #1BFF07;
+}
+
+.competencies {
+    margin-top: 150px;
+    color: white;
+}
+
+.competencies h2 {
+    font-size: 55px;
+}
+
+.competencies__item {
+    margin-top: 48px;
+}
+
+.competencies__list {
+    margin-top: 60px;
+}
+
+.competencies__list:first-child {
+    margin-top: 48px;
+}
+
+.competencies__title {
+    margin-top: 12px;
+    font-size: 35px;
+    color: #1BFF07;
+}
+
+.competencies__description {
+    margin-top: 15px;
+    font-size: 22px;
+    letter-spacing: 8.2px;
+}
+
+.services {
+    margin-top: 150px;
+    color: white;
+}
+
+.services h2 {
+    width: 403px;
+    font-size: 35px;
+}
+
+.services__item {
+    margin-top: 74px;
 }

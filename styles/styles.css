@@ -37,12 +37,12 @@ header {
 }
 
 .head-wrapper {
-    padding-top: 27px;
+    padding-top: 35px;
 }
 
 .namelogo {
     background-image: url(../recoures/black.png);
-    padding: 3px 12px 3px 8px;
+    padding: 3px 12px 4px 7px;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -56,20 +56,21 @@ header {
 }
 
 .head__link {
-    margin-right: 50px;
-    line-height: 40px;
+    margin-right: 41px;
+    line-height: 22px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
 }
 
 .head__link:last-child {
-    margin-right: 17px;
+    margin-right: 0;
 }
 
 .head__text {
     position: absolute;
     width: 430px;
-    bottom: 328px;
+    bottom: 326px;
     font-size: 20px;
     line-height: 26px;
     font-weight: 400;
@@ -79,15 +80,15 @@ header {
 .head__title {
     position: absolute;
     width: 919px;
-    bottom: 50px;
-    font-size: 80px;
+    bottom: 89px;
+    font-size: 79px;
     line-height: 70px;
     font-weight: 400;
     color: #3db0f2;
 }
 
 .projects__list {
-    margin-top: 40px;
+    margin-top: 49px;
 }
 
 .projects h2 {
@@ -106,20 +107,20 @@ header {
 
 .project__title {
     font-size: 35px;
+    margin-bottom: 15px;
     color: white;
 }
 
 .project__description {
-    margin-top: 5px;
     font-size: 30px;
     color: white;
 }
 
 .project__btn {
     display: block;
-    margin-top: 80px;
+    margin-top: 82px;
     width: 582px;
-    height: 153px;
+    height: 151px;
     font-size: 30px;
     line-height: 150px;
     text-align: center;
@@ -145,30 +146,33 @@ header {
 }
 
 .competence {
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 .competence:first-child {
-    margin-top: 48px;
+    margin-top: 59px;
 }
 
 .competencies__title {
-    width: 720px;
+    width: 751px;
     margin-top: 12px;
     font-size: 35px;
+    line-height: 47px;
     color: #3db0f2;
 }
+  
 
 .competencies__description {
     width: 778px;
     margin-top: 15px;
     font-size: 22px;
-    
+    line-height: 29px;  
 }
 
 .services h2 {
     width: 403px;
     font-size: 35px;
+    line-height: 46px;
 }
 
 .services__list {
@@ -177,7 +181,7 @@ header {
 
 .service {
     position: relative;
-    margin-top: 74px;
+    margin-top: 71px;
 }
 
 .service:first-child {
@@ -185,12 +189,12 @@ header {
 }
 
 .service:last-child {
-    margin-top: 137px;
+    margin-top: 127px;
 }
 
 .services__title {
     position: absolute;
-    top: 240px;
+    top: 250px;
     left: 40px;
     font-size: 55px;
     color: #3db0f2;
@@ -198,16 +202,17 @@ header {
 
 .services__description {
     position: absolute;
-    top: 327px;
+    top: 314px;
     left: 40px;
     width: 749px;
+    margin-top: 15px;
     font-size: 22px;
     line-height: 28px;
     
 }
 
 .contacts {
-    height: 717px;
+    height: 711px;
     background-image: url(../recoures/cuate.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -216,7 +221,7 @@ header {
 }
 
 .contacts__text {
-    padding-top: 320px;
+    padding-top: 328px;
     font-size: 35px;
 }
 
@@ -225,11 +230,11 @@ header {
 }
 
 .contact:first-child {
-    margin-top: 28px;
+    margin-top: 35px;
 }
 
 .contacts__link {
-    font-size: 60px;
+    font-size: 67px;
     text-decoration: none;
     color: white;
 }
@@ -244,13 +249,13 @@ footer {
 }
 
 .footer__description {
-    padding-top: 76px;
-    font-size: 22px;
+    padding-top: 84px;
+    font-size: 23px;
 }
 
 .footer__text {
-    padding-top: 66px;
+    padding-top: 73px;
     padding-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0.5;
 }

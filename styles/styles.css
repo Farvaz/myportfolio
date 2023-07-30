@@ -87,6 +87,10 @@ header {
     color: #3db0f2;
 }
 
+.projects {
+    margin-top: 158px;
+}
+
 .projects__list {
     margin-top: 49px;
 }
@@ -113,12 +117,13 @@ header {
 
 .project__description {
     font-size: 30px;
+    margin-bottom: 11px;
     color: white;
 }
 
 .project__btn {
     display: block;
-    margin-top: 82px;
+    margin-top: 73px;
     width: 582px;
     height: 151px;
     font-size: 30px;
